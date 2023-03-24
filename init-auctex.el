@@ -11,7 +11,7 @@ This process has 2 functions:
        (re-search-backward "\\\end{document}")
        (let ((end-point(-(point)1)))
          (write-region start-point end-point (format "%s.txt" (file-name-base)))
-         (buffer-substring-no-properties start-point end-point)))
+         (buffer-substring-no-properties start-point end-point)))))
 
 (defun cxy/pdf-to-clipboard()
     "set the clipboard macOS to the 'pdf output' of the current buffer"
