@@ -1,2 +1,2 @@
-# emacs.d
-tsunho's emacs.d
+# .emacs.d
+tsunho's .emacs.d
